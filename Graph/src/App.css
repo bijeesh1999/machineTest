@@ -1,0 +1,11 @@
+.App {
+  max-width: 1520px;
+  margin: auto;
+  user-select: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    max-width: 1200px;
+  }
+}

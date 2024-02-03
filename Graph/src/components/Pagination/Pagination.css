@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  gap: 6px;
+}
+.pagination button {
+  background-color: white;
+  border: rgb(215, 211, 211);
+  color: black;
+  padding: 6px;
+  border: 1px solid rgb(215, 211, 211);
+  border-radius: 4px;
+}
+.pagination button:hover {
+  border: 1px solid black;
+}
+.pagination button i {
+  font-size: 10px;
+}

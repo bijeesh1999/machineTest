@@ -1,0 +1,68 @@
+.profile_div {
+  background-color: white;
+  border-radius: 15px;
+}
+.profile_div .profile_pic {
+  width: 100%;
+}
+.profile_div .profile_pic img {
+  width: 100%;
+}
+.profile_div .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.profile_div .content h4 {
+  margin: 0;
+}
+.profile_div .content h5 {
+  margin: 0;
+  color: grey;
+}
+.profile_div .content .social_media {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.profile_div .content .social_media div {
+  width: 15px;
+  height: 15px;
+}
+.profile_div .content .social_media div img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .profile_div .content .social_media {
+    gap: 10px;
+  }
+  .profile_div .content .social_media div {
+    width: 12px;
+    height: 12px;
+  }
+  .profile_div .content .social_media div img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .profile_div .content {
+    gap: 5px;
+  }
+  .profile_div .content h4 {
+    font-size: 10px;
+  }
+  .profile_div .content h5 {
+    font-size: 10px;
+  }
+  .profile_div .content .social_media {
+    gap: 10px;
+  }
+  .profile_div .content .social_media div {
+    width: 10px;
+    height: 10px;
+  }
+}

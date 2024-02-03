@@ -1,0 +1,360 @@
+.home_screen {
+  min-height: 100vh;
+  display: flex;
+}
+.home_screen .dashboard {
+  width: 20%;
+  background-color: #20263a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+.home_screen .dashboard .title_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.home_screen .dashboard ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  margin-left: 70px;
+  padding: 0;
+}
+.home_screen .dashboard ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  border: 1px solid transparent;
+  border-radius: 15px 0 0 15px;
+  background-color: #161e36;
+}
+.home_screen .dashboard ul li:hover {
+  background-color: white;
+  color: #20263a;
+  cursor: pointer;
+}
+.home_screen .dashboard ul li div {
+  width: 20px;
+  height: 20px;
+}
+.home_screen .dashboard ul li div img {
+  width: 100%;
+  height: 100%;
+}
+.home_screen .dashboard ul li p {
+  margin: 0;
+}
+.home_screen .dashboard .logout {
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.home_screen .dashboard .logout button {
+  background: transparent;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.home_screen .dashboard .logout button:hover {
+  cursor: pointer;
+}
+.home_screen .dashboard .logout button p {
+  margin: 0;
+  color: #e45e5e;
+}
+.home_screen .chart_shower {
+  width: 73%;
+  background: #e8edff;
+  padding: 0 50px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 30px;
+  margin-left: auto;
+}
+.home_screen .chart_shower .head {
+  display: flex;
+  justify-content: space-between;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  display: none;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo .title_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo .title_logo .icon {
+  width: 30px;
+  height: 30px;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo .title_logo .icon img {
+  width: 100%;
+  height: 100%;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo .title_logo .title {
+  width: 50px;
+  height: 10px;
+}
+.home_screen .chart_shower .head .hanburger .hanburg_logo .title_logo .title img {
+  width: 100%;
+  height: 100%;
+}
+.home_screen .chart_shower .head .hanburger i {
+  color: grey;
+  font-size: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+.home_screen .chart_shower .head .hanburger .hanburger_menu {
+  position: absolute;
+  background-color: #161e36;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 5rem;
+  left: 0;
+}
+.home_screen .chart_shower .head .hanburger .hanburger_menu .options ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0;
+}
+.home_screen .chart_shower .head .hanburger .hanburger_menu .options ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+.home_screen .chart_shower .head .hanburger .hanburger_menu .options ul li:hover {
+  background-color: white;
+  color: #161e36;
+}
+.home_screen .chart_shower .head .hanburger .hanburger_menu .options ul li p {
+  margin: 0;
+}
+.home_screen .chart_shower .head .wishes p {
+  margin: 0;
+}
+.home_screen .chart_shower .head .profile {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.home_screen .chart_shower .head .profile .profile_data h3 {
+  margin: 0;
+  font-size: 15px;
+}
+.home_screen .chart_shower .head .profile .profile_data p {
+  margin: 0;
+  font-size: 11px;
+}
+.home_screen .chart_shower .graph_table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.home_screen .chart_shower .graph_table .graphs {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.home_screen .chart_shower .graph_table .graphs .lineGraph {
+  width: 65%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+.home_screen .chart_shower .graph_table .graphs .pieChart {
+  background-color: white;
+  display: flex;
+  align-items: center ;
+  border-radius: 15px;
+  justify-content: center;
+  width: 30%;
+  .legend-container{
+    width: 100%;
+    cnavas{
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+  /* .pieChart{
+    width: ;
+  } */
+
+}
+.home_screen .chart_shower .graph_table .graphs .pieChart .pie_chart_setter {
+  width: 100%;
+}
+.home_screen .chart_shower .graph_table .table_profile {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+}
+.home_screen .chart_shower .graph_table .table_profile .table {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.home_screen .chart_shower .graph_table .table_profile .table .pagination {
+  display: flex;
+  justify-content: center;
+}
+.home_screen .chart_shower .graph_table .table_profile .profile {
+  width: 20%;
+}
+
+@media screen and (max-width: 1230px) {
+  .home_screen .chart_shower .graph_table .graphs .pieChart .pie_chart_setter {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1165px) {
+  .home_screen .dashboard {
+    display: none;
+  }
+  .home_screen .chart_shower {
+    width: 100%;
+  }
+  .home_screen .chart_shower .head .hanburger .hanburg_logo {
+    display: flex;
+  }
+  .home_screen .chart_shower .head .profile {
+    height: 40px;
+  }
+  .head{
+    background-color: #161e36;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    color: white;
+    i{
+      color: white !important;
+    }
+    .profile{
+      margin-right: 5rem;
+      color: black;
+    }
+  }
+  .graph_table{
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home_screen .chart_shower .head .hanburger .hanburger_menu .options ul li {
+    font-size: 8px;
+    canvas{
+      width: 100% !important;
+    }
+  }
+  .home_screen .chart_shower .graph_table .graphs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_screen .chart_shower .graph_table .graphs .lineGraph {
+    width: 80%;
+  }
+  .home_screen .chart_shower .graph_table .graphs .pieChart {
+    width: 87%;
+    .legend-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .home_screen .chart_shower .graph_table .graphs .pieChart .pie_chart_setter {
+    width: 65%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .home_screen .chart_shower {
+    width: 100%;
+    padding:20px;
+  }
+  .home_screen .chart_shower .graph_table .table_profile {
+    display:grid;
+    width: 100%;
+    gap: 25px;
+    .table{
+      width: 100% !important;
+    }
+    .profile {
+      width: 30%;
+      margin: auto;
+  }
+    canvas{
+    width: 100% !important;
+  }
+  }
+  .home_screen .chart_shower .head .hanburger i {
+    font-size: 25px;
+  }
+  .home_screen .chart_shower .head .hanburger .hanburger_menu {
+    border-radius: 6px;
+  }
+  .home_screen .chart_shower .head .hanburger .hanburger_menu .options ul {
+    gap: 6px;
+  }
+  .home_screen .chart_shower .head .hanburger .hanburger_menu .options ul li {
+    font-size: 8px;
+  }
+  .home_screen .chart_shower .head .profile {
+    padding: 5px;
+    border-radius: 6px;
+    gap: 6px;
+    height: 20px;
+  }
+  .home_screen .chart_shower .head .profile .profile_data h3 {
+    font-size: 8px;
+  }
+  .home_screen .chart_shower .head .profile .profile_data p {
+    font-size: 6px;
+  }
+  .home_screen .chart_shower .head .profile .profile_img {
+    width: 25px;
+    height: 25px;
+  }
+  .home_screen .chart_shower .head .profile .profile_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .home_screen .chart_shower .graph_table .graphs .lineGraph {
+    padding: 5px;
+    border-radius: 7px;
+    canvas{
+      width: 100%;
+    }
+  }
+
+}
